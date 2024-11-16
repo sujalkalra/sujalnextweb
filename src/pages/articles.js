@@ -1,4 +1,4 @@
-import AnimatedText from '@/components/AnimatedText';
+the deployment is saying failed to compile this file why it is like that check for errors import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/layout';
 import React, { useRef } from 'react';
 import Head from 'next/head';
