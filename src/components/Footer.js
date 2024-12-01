@@ -10,10 +10,10 @@ import Link from 'next/link';
             <span>{new Date().getFullYear()}&copy; All Rights Reserved.</span>
             <div className="flex items-center lg:py-2">
                 built with<span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>by&nbsp;
-                <Link href='####' className='underline underline-offset-2'>SujalKalra</Link>
+                <Link href='https://github.com/sujalkalra' className='underline underline-offset-2'>SujalKalra</Link>
             </div>
             
-            <Link href='####' target={'_blank'} className='underline underline-offset-2'>Say Hello</Link>
+            <Link href='https://compilersuji-guests.vercel.app/' target={'_blank'} className='underline underline-offset-2'>Say Hello</Link>
         </Layout>
       </footer>
 	);
