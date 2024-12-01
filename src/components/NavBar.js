@@ -101,7 +101,7 @@ const NavBar = () => {
                     <CustomMobileLink href="/articles" title='Articles' className='' toggle={handleClick}/>
                 </nav>
                 <nav className='flex items-center justify-center flex-wrap mt-2'>
-                    <motion.a href='###' target={'_blank'} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 sm:mx-1'><TwitterIcon /></motion.a >
+                    <motion.a href='###' target={'_blank'} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 sm:mx-1'><LeetCodeIcon /></motion.a >
                     <motion.a href='###' target={'_blank'} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark'><GithubIcon /></motion.a >
                     <motion.a href='###' target={'_blank'} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'><LinkedInIcon /></motion.a >
                     <motion.a href='###' target={'_blank'} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1 bg-light rounded-full'><PinterestIcon /></motion.a >
