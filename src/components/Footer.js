@@ -13,7 +13,7 @@ import Link from 'next/link';
                 <Link href='https://github.com/sujalkalra' className='underline underline-offset-2'>SujalKalra</Link>
             </div>
             
-            <Link href='https://sujikiguestbook2.vercel.app/' target={'_blank'} className='underline underline-offset-2'>Say Hello</Link>
+            <Link href='https://sujiguestbook2.vercel.app/' target={'_blank'} className='underline underline-offset-2'>Say Hello</Link>
         </Layout>
       </footer>
 	);
