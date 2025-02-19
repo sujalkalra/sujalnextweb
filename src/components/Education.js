@@ -37,22 +37,22 @@ const Education = () => {
             <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details
-                        type="Bachelor Of Science In Computer Science"
-                        time="2016-2020"
-                        place="Massachusetts Institute Of Technology (MIT)"
+                        type="high schooling in PCM"
+                        time="2020-2022"
+                        place="Central Public Sr. Sec. School"
+                        info="Completed Physics, Chemistry, and Mathematics with Physical Education, demonstrating strong knowledge and analytical skills."
+                    />
+                    <Details
+                        type="Bachelor Of Technology In Computer Science"
+                        time="2022-2026"
+                        place="Vellore Institute of Technology (Amaravathi)"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
                     />
                     <Details
-                        type="Master Of Computer Science"
-                        time="2020-2022"
-                        place="Stanford University"
-                        info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
-                    />
-                    <Details
-                        type="Online Coursework"
-                        time="2016-2020"
-                        place="Coursera And EdX"
-                        info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+                        type="Harvard CS50"
+                        time="2023-2024"
+                        place="Harvard And EdX"
+                        info="Completed core computer science concepts and built a full-stack final project, applying knowledge to real-world development."
                     />
                 </ul>
             </div>
