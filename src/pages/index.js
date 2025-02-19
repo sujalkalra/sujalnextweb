@@ -25,10 +25,9 @@ export default function Home() {
               <Image src={profilePic} alt="sujal" className='w-2/3 h-2/3 lg:hidden md:inline-block md:w-full sm:py-16 md:py-12 lg:py-8' priority sizes='(max-width:768px) 100vh, (max-width:1200px) 50vh,50vh'  />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Turning Vision Into Reality With Code And Design. " className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
+              <AnimatedText text="Solving Complex Problems With Logic, Code, And Innovation. " className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-              Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              As a passionate problem-solver, I turn ideas into efficient and innovative solutions. Explore my latest projects and articles, showcasing my expertise in algorithms, AI, and full-stack development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
 
