@@ -43,9 +43,9 @@ const Education = () => {
                         info="Completed Physics, Chemistry, and Mathematics with Physical Education, demonstrating strong knowledge and analytical skills."
                     />
                     <Details
-                        type="Bachelor Of Technology In Computer Science"
+                        type="B.Tech In Computer Science"
                         time="2022-2026"
-                        place="Vellore Institute of Technology (Amaravathi)"
+                        place="Vellore Institute of Technology"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
                     />
                     <Details
