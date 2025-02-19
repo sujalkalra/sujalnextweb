@@ -47,14 +47,9 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                            <p className='font-medium text-sm'>Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients&apos; visions to life.</p>
-                            <p className='my-4 font-medium text-sm'>I believe that design is about more than just making things look pretty – it&apos;s about solving problems and
-                                creating intuitive, enjoyable experiences for users. </p>
-                            <p className='font-medium text-sm'>Whether I&apos;m working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+                            <p className='font-medium text-sm'>Hi, I&apos;m Sujal, a full-stack developer and AI enthusiast with a passion for building efficient, innovative, and user-focused solutions. With a strong background in algorithms and system design, I'm always exploring new ways to turn ideas into reality.</p>
+                            <p className='my-4 font-medium text-sm'>I believe coding is more than just writing programs – it&apos;s about solving problems and building efficient, impactful solutions for users. </p>
+                            <p className='font-medium text-sm'>Whether I&apos;m developing algorithms, building AI models, or crafting efficient web applications, I bring my problem-solving mindset and innovation to every project. I look forward to applying my skills and passion to your next challenge.</p>
                         </div>
                         <div className='col-span-3 relative h-max rounded-2xl 
                         border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
