@@ -46,44 +46,52 @@ const Experience = () => {
             <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Full Stack Developer"
+                        company="Crypto Screener"
+                        companyLink="https://github.com/sujalkalra"
+                        time="2024–Present"
+                        address="Remote"
+                        work="Worked on a team responsible for building a crypto screener web app, including real-time data display, filtering by market stats, and integrating secure authentication and state management."
                     />
                     <Details
-                        position="Intern"
-                        company="Facebook"
-                        companyLink="www.facebook.com"
-                        time="Summer 2021"
-                        address="Menlo Park, CA"
-                        work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and share short-form video content, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
+                        position="Frontend Developer"
+                        company="Personal Portfolio"
+                        companyLink="https://github.com/sujalkalra"
+                        time="2024"
+                        address="Remote"
+                        work="Worked on a team responsible for creating a personal web portfolio, including implementing rotating skill icons, neon styling, animated elements, and optimizing for responsiveness."
+                    />
+                    <Details
+                        position="Backend Developer"
+                        company="INChat Abuse Detector"
+                        companyLink="https://github.com/sujalkalra"
+                        time="2024"
+                        address="Remote"
+                        work="Worked on a team responsible for building an abuse detection system, including creating a fuzzy text matcher using Python and FuzzyWuzzy, and implementing backend logic for chat filters."
                     />
                     <Details
                         position="Software Developer"
-                        company="Amazon"
-                        companyLink="www.amazon.com"
-                        time="2020-2021"
-                        address="Seattle, WA"
-                        work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+                        company="Realtime Guestbook"
+                        companyLink="https://github.com/sujalkalra"
+                        time="2023"
+                        address="Remote"
+                        work="Worked on a team responsible for creating a live guestbook using Supabase, including real-time data updates, frontend rendering with FastHTML, and user feedback tracking features."
                     />
                     <Details
-                        position="Software Developer Intern"
-                        company="Microsoft"
-                        companyLink="www.microsoft.com"
-                        time="Summer 2019"
-                        address="Redmond, WA"
-                        work="Worked on a team responsible for developing new features for Microsoft's Windows operating system, including implementing a new user interface for a system settings panel and optimizing the performance of a core system component."
+                        position="Tech Mentor"
+                        company="VIT-AP Coding Club"
+                        companyLink="https://www.linkedin.com/in/sujal-kalra-660190252/"
+                        time="2023–Present"
+                        address="VIT-AP, Amaravati"
+                        work="Assisted students in learning DSA and Python, held sessions on core CS concepts, and guided juniors on building projects and preparing for coding contests and technical interviews."
                     />
                     <Details
-                        position="Teaching Assistant"
-                        company="MIT"
-                        companyLink="www.mit.edu"
-                        time="Fall 2018"
-                        address="Massachusetts Ave, Cambridge, MA"
-                        work="Assisted in teaching a course on computer programming, held office hours to help students with assignments, and graded exams and assignments."
+                        position="Award Winner"
+                        company="Inter-University Contest"
+                        companyLink="https://www.linkedin.com/in/sujal-kalra-660190252/"
+                        time="2024"
+                        address="VIT-AP, Amaravati"
+                        work="Won 2nd prize in an inter-university debugging contest, received the 'Fast Debugger' title for quickly resolving bugs under pressure, showcasing strong debugging and logic skills."
                     />
                 </ul>
             </div>
