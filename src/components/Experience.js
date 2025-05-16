@@ -47,32 +47,32 @@ const Experience = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
                         position="Full Stack Developer"
-                        company="Crypto Screener"
-                        companyLink="https://github.com/sujalkalra"
-                        time="2024–Present"
+                        company="CryptoViz"
+                        companyLink="github.com/sujalkalra"
+                        time="2023–Present"
                         address="Remote"
                         work="Worked on a team responsible for building a crypto screener web app, including real-time data display, filtering by market stats, and integrating secure authentication and state management."
                     />
                     <Details
                         position="Frontend Developer"
-                        company="Personal Portfolio"
-                        companyLink="https://github.com/sujalkalra"
+                        company="SujiNextWeb"
+                        companyLink="sujinextweb.vercel.app"
                         time="2024"
                         address="Remote"
                         work="Worked on a team responsible for creating a personal web portfolio, including implementing rotating skill icons, neon styling, animated elements, and optimizing for responsiveness."
                     />
                     <Details
                         position="Backend Developer"
-                        company="INChat Abuse Detector"
-                        companyLink="https://github.com/sujalkalra"
+                        company="AbuSuji"
+                        companyLink="github.com/sujalkalra"
                         time="2024"
                         address="Remote"
                         work="Worked on a team responsible for building an abuse detection system, including creating a fuzzy text matcher using Python and FuzzyWuzzy, and implementing backend logic for chat filters."
                     />
                     <Details
                         position="Software Developer"
-                        company="Realtime Guestbook"
-                        companyLink="https://github.com/sujalkalra"
+                        company="SujiGuestBook"
+                        companyLink="sujiguestbook2.vercel.app"
                         time="2023"
                         address="Remote"
                         work="Worked on a team responsible for creating a live guestbook using Supabase, including real-time data updates, frontend rendering with FastHTML, and user feedback tracking features."
@@ -80,15 +80,15 @@ const Experience = () => {
                     <Details
                         position="Tech Mentor"
                         company="VIT-AP Coding Club"
-                        companyLink="https://www.linkedin.com/in/sujal-kalra-660190252/"
+                        companyLink="www.linkedin.com/in/sujal-kalra-660190252/"
                         time="2023–Present"
                         address="VIT-AP, Amaravati"
                         work="Assisted students in learning DSA and Python, held sessions on core CS concepts, and guided juniors on building projects and preparing for coding contests and technical interviews."
                     />
                     <Details
                         position="Award Winner"
-                        company="Inter-University Contest"
-                        companyLink="https://www.linkedin.com/in/sujal-kalra-660190252/"
+                        company="FastDeBugger"
+                        companyLink="www.linkedin.com/in/sujal-kalra-660190252/"
                         time="2024"
                         address="VIT-AP, Amaravati"
                         work="Won 2nd prize in an inter-university debugging contest, received the 'Fast Debugger' title for quickly resolving bugs under pressure, showcasing strong debugging and logic skills."
