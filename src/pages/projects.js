@@ -123,7 +123,7 @@ const Project = ({title,type,img,link,github}) => {
         summary="Created a guestbook with FastHTML and Supabase allowing real-time messages and live feedback. Backend optimized for instant updates."
         link="https://your-live-link.com"
         github="https://github.com/sujalkalra"
-        type="Mini Project"
+        type="Backend based project"
       />
     </div>
 
@@ -135,7 +135,7 @@ const Project = ({title,type,img,link,github}) => {
         summary="A collaborative coding platform built using Next.js, Tailwind CSS, and MongoDB. It allows candidates to write code live with interviewers, run it in real-time, and experience smooth interaction through a shared code editor."
         link=""
         github=""
-        type="React Portfolio Website"
+        type="Fullstack project"
       />
     </div>
 
@@ -147,7 +147,7 @@ const Project = ({title,type,img,link,github}) => {
     	summary="ComplexSuji is an AI-powered web platform that instantly analyzes code to determine time and space complexity. Designed with Next.js, TailwindCSS, and Firebase, it supports multiple languages like JavaScript, Python, and Java. Users get real-time performance insights, Big-O notation, and intelligent suggestions to optimize their code — ideal for developers, learners, and interview prep."
     	link="https://complexsuji.vercel.app/"
     	github="https://github.com/sujalkalra"
-    	type="Featured AI Project"
+    	type="Fuzzy Logic Project"
 	/>
     </div>
 	{/* CodyBudy */}
@@ -158,7 +158,7 @@ const Project = ({title,type,img,link,github}) => {
         summary="A simple social web app built using Python Flask, HTML, CSS, and SQLite. It allows users to stay connected with their friends, manage profiles, and share thoughts through clean and easy-to-use interfaces."
         link=""
         github=""
-        type="Featured Project"
+        type="Flask Project"
       />
     </div>
   </div>
