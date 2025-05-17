@@ -85,67 +85,85 @@ const Project = ({title,type,img,link,github}) => {
         </Head>
         < TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
-            <Layout className='pt-16'>
-                <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 
-                lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl 
-                 ' />
+            <Layout className="pt-16">
+  <AnimatedText
+    text="Imagination Trumps Knowledge!"
+    className="mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+  />
 
-                <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+  <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+    {/* Crypto Screener */}
     <div className="col-span-12">
-        <FeaturedProject
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrencies, and you can easily convert the price into your local currency."
-            link=""
-            github=""
-            type="Featured Project"
-        />
+      <FeaturedProject
+        title="Crypto Screener Application"
+        img={project1}
+        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows details regarding almost all cryptocurrencies, and you can easily convert prices into your local currency."
+        link=""
+        github=""
+        type="Featured Project"
+      />
     </div>
-    <div className="col-span-6 sm:col-span-12"><Project
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrencies, and you can easily convert the price into your local currency."
-            link=""
-            github=""
-            type="Featured Project"
-        /></div>
-    <div className="col-span-6 sm:col-span-12"><Project
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrencies, and you can easily convert the price into your local currency."
-            link=""
-            github=""
-            type="Featured Project"
-        /></div>
+
+    {/* Complexity calc */}
+    <div className="col-span-6 sm:col-span-12">
+      <Project
+        title="ComplexSuji"
+        img={project1}
+        summary="ComplexSuji is an AI-powered web platform that instantly analyzes code to determine time and space complexity. Designed with Next.js, TailwindCSS, and Firebase, it supports multiple languages like JavaScript, Python, and Java. Users get real-time performance insights, Big-O notation, and intelligent suggestions to optimize their code — ideal for developers, learners, and interview prep."
+        link="https://complexsuji.vercel.app/"
+        github="https://github.com/sujalkalra"
+        type="AI based Project"
+      />
+    </div>
+    {/* guestbook */}
+    <div className="col-span-6 sm:col-span-12">
+      <Project
+        title="Realtime Guestbook App"
+        img={project1}
+        summary="Created a guestbook with FastHTML and Supabase allowing real-time messages and live feedback. Backend optimized for instant updates."
+        link="https://your-live-link.com"
+        github="https://github.com/sujalkalra"
+        type="Mini Project"
+      />
+    </div>
+
+    {/* interview wali */}
     <div className="col-span-12">
-        <FeaturedProject
-            
-            title="React Portfolio"
-            img={project1}
-            summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, a unique design, and is mobile responsive."
-            link=""
-            github=""
-            type="React Portfolio Website"
-        />
+      <FeaturedProject
+        title="SujiViewer"
+        img={project1}
+        summary="A collaborative coding platform built using Next.js, Tailwind CSS, and MongoDB. It allows candidates to write code live with interviewers, run it in real-time, and experience smooth interaction through a shared code editor."
+        link=""
+        github=""
+        type="React Portfolio Website"
+      />
     </div>
-    <div className="col-span-6 sm:col-span-12"><Project
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrencies, and you can easily convert the price into your local currency."
-            link=""
-            github=""
-            type="Featured Project"
-        /></div>
-    <div className="col-span-6 sm:col-span-12"><Project
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrencies, and you can easily convert the price into your local currency."
-            link=""
-            github=""
-            type="Featured Project"
-        /></div>
-</div>
-            </Layout>
+
+    {/* Abusuji */}
+    <div className="col-span-6 sm:col-span-12">
+      <Project
+    	title="AbuZZy"
+    	img={project1}
+    	summary="ComplexSuji is an AI-powered web platform that instantly analyzes code to determine time and space complexity. Designed with Next.js, TailwindCSS, and Firebase, it supports multiple languages like JavaScript, Python, and Java. Users get real-time performance insights, Big-O notation, and intelligent suggestions to optimize their code — ideal for developers, learners, and interview prep."
+    	link="https://complexsuji.vercel.app/"
+    	github="https://github.com/sujalkalra"
+    	type="Featured AI Project"
+	/>
+    </div>
+	{/* CodyBudy */}
+    <div className="col-span-6 sm:col-span-12">
+      <Project
+        title="CodyBudy"
+        img={project1}
+        summary="A simple social web app built using Python Flask, HTML, CSS, and SQLite. It allows users to stay connected with their friends, manage profiles, and share thoughts through clean and easy-to-use interfaces."
+        link=""
+        github=""
+        type="Featured Project"
+      />
+    </div>
+  </div>
+</Layout>
+
         </main>
         </>
 	);
