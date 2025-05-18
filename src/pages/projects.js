@@ -6,6 +6,11 @@ import Link from 'next/link';
 import { GithubIcon } from '@/components/icons';
 import Image from 'next/image';
 import project1 from '../../public/images/projects/cryptoray.jpg';
+import project2 from '../../public/images/projects/complexsuji.jpg';
+import project3 from '../../public/images/projects/guestbook.jpg';
+import project4 from '../../public/images/projects/sujiviewer.jpg';
+import project5 from '../../public/images/projects/abusuji.jpg';
+import project6 from '../../public/images/projects/codebuddy.jpg';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -128,7 +133,7 @@ const Projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="ComplexSuji"
-                img={project1}
+                img={project2}
                 summary="ComplexSuji is an AI-powered web platform that instantly analyzes code to determine time and space complexity. Designed with Next.js, TailwindCSS, and Firebase, it supports multiple languages like JavaScript, Python, and Java. Users get real-time performance insights, Big-O notation, and intelligent suggestions to optimize their code — ideal for developers, learners, and interview prep."
                 link="https://complexsuji.vercel.app/"
                 github="https://github.com/sujalkalra"
@@ -140,7 +145,7 @@ const Projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Realtime Guestbook App"
-                img={project1}
+                img={project3}
                 summary="Created a guestbook with FastHTML and Supabase allowing real-time messages and live feedback. Backend optimized for instant updates."
                 link="https://your-live-link.com"
                 github="https://github.com/sujalkalra"
@@ -152,7 +157,7 @@ const Projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="SujiViewer"
-                img={project1}
+                img={project4}
                 summary="A collaborative coding platform built using Next.js, Tailwind CSS, and MongoDB. It allows candidates to write code live with interviewers, run it in real-time, and experience smooth interaction through a shared code editor."
                 link=""
                 github=""
@@ -164,7 +169,7 @@ const Projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="AbuZZy"
-                img={project1}
+                img={project5}
                 summary="ComplexSuji is an AI-powered web platform that instantly analyzes code to determine time and space complexity. Designed with Next.js, TailwindCSS, and Firebase, it supports multiple languages like JavaScript, Python, and Java. Users get real-time performance insights, Big-O notation, and intelligent suggestions to optimize their code — ideal for developers, learners, and interview prep."
                 link="https://complexsuji.vercel.app/"
                 github="https://github.com/sujalkalra"
@@ -176,7 +181,7 @@ const Projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="CodyBudy"
-                img={project1}
+                img={project6}
                 summary="A simple social web app built using Python Flask, HTML, CSS, and SQLite. It allows users to stay connected with their friends, manage profiles, and share thoughts through clean and easy-to-use interfaces."
                 link=""
                 github=""
